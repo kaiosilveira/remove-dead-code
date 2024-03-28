@@ -1,7 +1,13 @@
-import { toBeRefactored } from './index';
+import { doSomething, doSomethingThatUsedToMatter } from './index';
 
-describe('functionToBeRefactored', () => {
+describe('doSomething', () => {
   it('should work', () => {
-    expect(toBeRefactored()).toEqual('Hello, world!');
+    expect(doSomething()).toEqual(2);
+  });
+});
+
+describe('doSomethingThatUsedToMatter', () => {
+  it('should work', () => {
+    expect(doSomethingThatUsedToMatter()).toEqual(1);
   });
 });

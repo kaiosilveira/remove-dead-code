@@ -1,3 +1,8 @@
-export function toBeRefactored() {
-  return 'Hello, world!';
+export function doSomethingThatUsedToMatter() {
+  return 1;
+}
+
+export function doSomething() {
+  if (false) doSomethingThatUsedToMatter();
+  return 2;
 }
