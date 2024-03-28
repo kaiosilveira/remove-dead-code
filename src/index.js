@@ -3,6 +3,5 @@ export function doSomethingThatUsedToMatter() {
 }
 
 export function doSomething() {
-  if (false) doSomethingThatUsedToMatter();
   return 2;
 }
